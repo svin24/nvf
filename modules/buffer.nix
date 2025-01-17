@@ -4,7 +4,7 @@ in
 {
   config.vim = {
     maps.normal = {
-      "${bufferMap}d" = {
+      "${bufferMap}k" = {
         action = ":bdel<CR>";
         desc = "Buffer: Kill Current";
       };
