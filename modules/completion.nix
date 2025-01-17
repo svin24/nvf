@@ -4,7 +4,7 @@
     mappings = {
       previous = "<C-p>";
       next = "<C-n>";
-      confirm = "<C-l>";
+      confirm = "<TAB>";
 
       close = null;
       complete = null;
