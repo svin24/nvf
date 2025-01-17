@@ -8,6 +8,10 @@ in
         action = ":bdel<CR>";
         desc = "Buffer: Kill Current";
       };
+      "${bufferMap}s" = {
+        action = ":w<CR>";
+        desc = "Buffer: Save";
+      };
       "${bufferMap}-" = {
         action = ":bp<CR>";
         desc = "Buffer: Previous";
