@@ -27,7 +27,6 @@
         # optionals
         flake-utils.follows = "";
         systems.follows = "";
-        rnix-lsp.follows = "";
         nil.follows = "";
       };
     };
