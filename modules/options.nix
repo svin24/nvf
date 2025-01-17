@@ -15,6 +15,10 @@
         backup = false;
         writebackup = false;
         swapfile = false;
+
+        # mouse
+        mouse = "nv";
+        mousemodel = "extend";
       };
   };
 }
