@@ -4,8 +4,8 @@ The following project is a my personally curated configuration for
 [neovim](https://neovim.io).
 
 This configuration is written using Nix. This allows me to easily use this
-customized configuration on any machine with Nix installed.
-There is no package manager step, everything is handled behind the scenes by
+customized configuration on any machine with Nix installed. There is no package
+manager step, everything is handled behind the scenes by
 [Nix](https://nixos.org) +
 [nixpkgs](https://search.nixos.org/packages?channel=unstable&type=packages&query=vimPlugins) +
 [nvf](https://github.com/NotAShelf/nvf).
@@ -21,8 +21,8 @@ There is no package manager step, everything is handled behind the scenes by
 
 ## Get It
 
-You may try this Neovim configuration without installation. This does not
-affect your configuration.
+You may try this Neovim configuration without installation. This does not affect
+your configuration.
 
 ```sh
 nix run github:anntnzrb/nvf
