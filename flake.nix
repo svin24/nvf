@@ -1,5 +1,5 @@
 {
-  description = "annt's nixified Neovim via nvf.";
+  description = "annt's nixified Neovim via nvf";
 
   outputs =
     inputs:
@@ -7,7 +7,7 @@
       systems = inputs.nixpkgs.lib.systems.flakeExposed;
       imports =
         let
-          modulesDir = ./flake;
+          modulesDir = ./modules/flake;
         in
         with builtins;
         map (mod: "${modulesDir}/${mod}") (attrNames (readDir modulesDir));

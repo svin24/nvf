@@ -3,7 +3,7 @@
   ...
 }:
 let
-  modulesDir = inputs.self + /modules;
+  modulesDir = inputs.self + /modules/nixvim;
   modules.imports = with builtins; map (mod: "${modulesDir}/${mod}") (attrNames (readDir modulesDir));
 
   mkNvimConf =
