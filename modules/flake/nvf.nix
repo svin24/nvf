@@ -1,16 +1,26 @@
 {
+  lib,
   inputs,
   ...
 }:
 let
-  modulesDir = inputs.self + /modules/nixvim;
-  modules.imports = with builtins; map (mod: "${modulesDir}/${mod}") (attrNames (readDir modulesDir));
+  inherit (builtins) readDir;
+  inherit (lib)
+    filter
+    elem
+    attrNames
+    ;
 
-  mkNvimConf =
-    pkgs: modules:
-    (inputs.nvf.lib.neovimConfiguration {
-      inherit pkgs modules;
-    }).neovim;
+  modulesDir = inputs.self + "/modules/nixvim";
+  ignoredModules = [
+    #"${modulesDir}/misc.nix"
+  ];
+
+  modules.imports = map (mod: "${modulesDir}/${mod}") (
+    filter (name: !(elem "${modulesDir}/${name}" ignoredModules)) (attrNames (readDir modulesDir))
+  );
+
+  mkNvimConf = pkgs: modules: (inputs.nvf.lib.neovimConfiguration { inherit pkgs modules; }).neovim;
 in
 {
   perSystem =
