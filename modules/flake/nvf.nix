@@ -14,11 +14,10 @@ let
 in
 {
   perSystem =
-    { self', pkgs, ... }:
+    { pkgs, ... }:
     {
       packages = {
-        neovim = mkNvimConf pkgs [ modules ];
-        default = self'.packages.neovim;
+        nvf = mkNvimConf pkgs [ modules ];
       };
     };
 }
