@@ -10,6 +10,11 @@
 
     autopairs.nvim-autopairs.enable = true;
 
+    notes.todo-comments = {
+      enable = true;
+      mappings.telescope = "<leader>st";
+    };
+
     comments.comment-nvim = {
       enable = true;
       mappings =
