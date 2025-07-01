@@ -3,7 +3,6 @@
     languages = {
       enableExtraDiagnostics = true;
       enableFormat = true;
-      enableLSP = true;
     };
 
     lsp = {
