@@ -1,7 +1,5 @@
 {
   config.vim = {
-    useSystemClipboard = true;
-
     options =
       let
         indentWidth = 2;
@@ -20,5 +18,10 @@
         mouse = "nv";
         mousemodel = "extend";
       };
+
+    clipboard = {
+      enable = true;
+      registers = "unnamedplus";
+    };
   };
 }
