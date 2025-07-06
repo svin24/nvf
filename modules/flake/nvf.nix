@@ -24,10 +24,11 @@ let
 in
 {
   perSystem =
-    { pkgs, ... }:
+    { self', pkgs, ... }:
     {
       packages = {
         nvf = mkNvimConf pkgs [ modules ];
+        default = self'.packages.nvf;
       };
     };
 }
