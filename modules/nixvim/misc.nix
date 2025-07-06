@@ -4,7 +4,7 @@
       enable = false;
       languages = [
         "en"
-        "es"
+        "el"
       ];
     };
 

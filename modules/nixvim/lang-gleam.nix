@@ -1,3 +1,3 @@
 {
-  config.vim.languages.gleam.enable = true;
+  config.vim.languages.gleam.enable = false;
 }

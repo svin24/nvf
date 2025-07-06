@@ -1,6 +1,6 @@
 {
   config.vim.languages.typst = {
-    enable = true;
+    enable = false;
     lsp.server = "tinymist";
     format.type = "typstyle";
   };

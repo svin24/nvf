@@ -10,10 +10,10 @@
         tabstop = indentWidth;
 
         # backup & swap
-        backup = false;
-        writebackup = false;
-        swapfile = false;
-
+        backup = true;
+        writebackup = true;
+        swapfile = true;
+        
         # mouse
         mouse = "nv";
         mousemodel = "extend";
@@ -23,5 +23,7 @@
       enable = true;
       registers = "unnamedplus";
     };
+
+    undoFile=true;
   };
 }
