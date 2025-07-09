@@ -15,7 +15,7 @@
         swapfile = true;
         
         # mouse
-        mouse = "nv";
+        mouse = "a";
         mousemodel = "extend";
       };
 
