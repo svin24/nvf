@@ -7,7 +7,7 @@
 
     lsp = {
       enable = true;
-      formatOnSave = false;
+      formatOnSave = true;
       lspconfig.enable = true;
       null-ls.enable = true;
       nvim-docs-view.enable = false; # this is broken
