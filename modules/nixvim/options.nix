@@ -24,6 +24,6 @@
       registers = "unnamedplus";
     };
 
-    undoFile=true;
+    undoFile.enable=true;
   };
 }
