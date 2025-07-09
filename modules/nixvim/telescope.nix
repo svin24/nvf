@@ -2,7 +2,7 @@ _: {
   config.vim.telescope = {
     enable = true;
     mappings = {
-      findFiles = "<leader> ";
+      findFiles = "<leader>sf";
       liveGrep = "<leader>sg";
       open = "<leader>s\/";
 

@@ -10,8 +10,8 @@
         tabstop = indentWidth;
 
         # backup & swap
-        backup = true;
-        writebackup = true;
+        backup = false;
+        writebackup = false;
         swapfile = true;
         
         # mouse

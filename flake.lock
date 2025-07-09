@@ -39,10 +39,10 @@
     "nixpkgs": {
       "locked": {
         "lastModified": 315532800,
-        "narHash": "sha256-42SFxUaGoNR5BQsnKO7y20UdNb/i/EZT/alOsHFHRao=",
-        "rev": "c860cf0b3a0829f0f6cf344ca8de83a2bbfab428",
+        "narHash": "sha256-5EzvWAMTAf6m6Ynab7EnYz9OfJO2wHCb/yhtP8ACQQQ=",
+        "rev": "9b008d60392981ad674e04016d25619281550a9d",
         "type": "tarball",
-        "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.11pre824823.c860cf0b3a08/nixexprs.tar.xz"
+        "url": "https://releases.nixos.org/nixpkgs/nixpkgs-25.11pre826760.9b008d603929/nixexprs.tar.xz"
       },
       "original": {
         "type": "tarball",
@@ -56,18 +56,17 @@
         ],
         "flake-utils": [],
         "mnw": "mnw",
-        "nil": [],
         "nixpkgs": [
           "nixpkgs"
         ],
         "systems": []
       },
       "locked": {
-        "lastModified": 1751520935,
-        "narHash": "sha256-jp5Mzbw0I/DEX4PVFi4C6MzwCZ/st+GUKMl/+IodX0o=",
+        "lastModified": 1752001027,
+        "narHash": "sha256-JgP8lW4QBr9v/U4ETaIOMvGCd/DAA1AjZ1lqjIwfWno=",
         "owner": "notashelf",
         "repo": "nvf",
-        "rev": "b4850409336b770d0db4cfd8acd71793747ddfe5",
+        "rev": "c4d80273aaefeadaad96db97d077c647942b0e96",
         "type": "github"
       },
       "original": {
