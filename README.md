@@ -1,4 +1,4 @@
-# annt's nvf
+# svin's nvf based on annt's
 
 The following project is a my personally curated configuration for
 [neovim](https://neovim.io).
@@ -10,28 +10,19 @@ manager step, everything is handled behind the scenes by
 [nixpkgs](https://search.nixos.org/packages?channel=unstable&type=packages&query=vimPlugins) +
 [nvf](https://github.com/NotAShelf/nvf).
 
-> [!TIP]
-> This configuration is the successor of my
-> [nixvim](https://github.com/anntnzrb/nixvim) configuration.
-
-## Goals
-
-- Avoid raw _lua/vimscript_ code as much as possible to favor _nixification_;
-  `nvf` should handle the configuration via modules
-
 ## Get It
 
 You may try this Neovim configuration without installation. This does not affect
 your configuration.
 
 ```sh
-nix run github:anntnzrb/nvf
+nix run github:svin24/nvf
 ```
 
 You can also alias the above command for convenience.
 
 ```sh
-alias e='nix run github:anntnzrb/nvf --'
+alias e='nix run github:svin24/nvf --'
 
 # open any file
 e ~/.bashrc
@@ -42,7 +33,7 @@ e ~/.bashrc
 The following will provide the `nvim` command:
 
 ```sh
-nix profile install github:anntnzrb/nvf
+nix profile install github:svin24/nvf
 ```
 
 ## COPYING
